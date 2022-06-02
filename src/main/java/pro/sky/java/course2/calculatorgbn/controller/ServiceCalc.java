@@ -5,6 +5,6 @@ public interface ServiceCalc {
     int plus(int num1, int num2);
     int subtraction(int num1, int num2);
     int multipliction(int num1, int num2);
-    int division(int num1, int num2);
+    double division(double num1, double num2);
 
 }

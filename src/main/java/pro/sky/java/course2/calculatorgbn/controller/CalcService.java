@@ -3,7 +3,7 @@ package pro.sky.java.course2.calculatorgbn.controller;
 import org.springframework.stereotype.Service;
 
 @Service
-public class CalcServiceImp implements ServiceCalc{
+public class CalcService implements ServiceCalc{
 
     public String hello(){
         return "<b> Добро пожаловать в калькулятор.</b>";
@@ -24,8 +24,8 @@ public class CalcServiceImp implements ServiceCalc{
         return mult;
     }
 
-    public int division(int num1, int num2) {
-            int div = num1 / num2;
+    public double division(double num1, double num2) {
+            double div = num1 / num2;
         return div;
     }
 }
